@@ -23,7 +23,7 @@ INSTRUKCJA INSTALACJI:
    mkdir ~/GitHub
    cd ~/GitHub/
    git clone https://github.com/elkrien/mm-arch-gnome-settings.git
-   cd mm-arch-xfce-settings/
+   cd mm-arch-gnome-settings/
    ./git-setup.sh
    ```
 
