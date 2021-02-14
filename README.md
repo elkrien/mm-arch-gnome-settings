@@ -22,17 +22,17 @@ INSTRUKCJA INSTALACJI:
    sudo pacman -S --needed git
    mkdir ~/GitHub
    cd ~/GitHub/
-   git clone https://github.com/elkrien/mm-arch-xfce-settings.git
+   git clone https://github.com/elkrien/mm-arch-gnome-settings.git
    cd mm-arch-xfce-settings/
    ./git-setup.sh
    ```
 
 4. Uruchom następujące skrypty:
 
-   Instalacja środowiska graficznego XFCE (możesz ale nie musisz restartować komputera):
+   Instalacja środowiska graficznego GNOME (możesz ale nie musisz restartować komputera):
 
    ```sh
-    ./001-xfce-environment.sh
+    ./001-gnome-environment.sh
     sudo reboot
    ```
 
