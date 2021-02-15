@@ -3,7 +3,7 @@
 #################################################################################
 #										#
 #										#
-# Opis		:	Skrypt do instalacji tematów Ant Dracula do XFCE	#
+# Opis		:	Skrypt do instalacji tematów Ant Dracula do GNOME	#
 #		:								#
 # Author	:	Maciej Młocek (thx to Eric Dubois from Arcolinux)	#
 #										#
@@ -55,16 +55,12 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-#gobject-instrospection			# potrzebne do zainstalowania panelu vala
 )
 
 list_paru=(
 ant-dracula-gtk-theme			# motyw Ant Dracula do XFCE
 kora-icon-theme				# ikony kora dla XFCE
 bibata-cursor-theme-bin			# kursory myszy
-#vala-panel-appmenu-xfce-git		# panel vala
-#vala-panel-appmenu-common-git		# panel vala
-#vala-panel-appmenu-registrar-git	# panel vala
 )
 
 
@@ -88,36 +84,11 @@ for name in "${list_paru[@]}" ; do
 	echo
 done
 
-# temat dla plank
-
-#mkdir -p ~/Pobrane
-#wget -P ~/Pobrane/ https://github.com/dracula/plank/archive/master.zip
-#unzip ~/Pobrane/master.zip -d ~/Pobrane
-#rm ~/Pobrane/master.zip 
-#sudo cp -r ~/Pobrane/plank-master/Dracula/ /usr/share/plank/themes/
-
-# temat dla MousePad
-
-#cd ~/GitHub/
-#git clone https://github.com/dracula/mousepad.git && cd mousepad
-#mkdir -p "$HOME/.local/share/gtksourceview-3.0/styles"
-#mv dracula.xml $HOME/.local/share/gtksourceview-3.0/styles
-#cd ~/GitHub/mm-arch-xfce-settings/
 
 # temat dla micro
 
 mkdir -p ~/.config/micro/colorschemes
 cp -r ./Config-files/dracula.micro ~/.config/micro/colorschemes
-
-# polecenia dla pluginu vala
-
-#xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true  
-#xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
-
-# temat dla rofi
-
-#mkdir -p ~/.config/rofi
-#cp -r ./Config-files/config.rasi ~/.config/rofi 
 
 # temat dla typora
 
@@ -129,7 +100,6 @@ cp -R ./Config-files/dracula.css ~/.config/Typora/themes/
 
 mkdir -p ~/.local/share/gedit/styles/
 cp ./Config-files/dracula.xml ~/.local/share/gedit/styles/
-
 
 # temat dla libreoffice
 

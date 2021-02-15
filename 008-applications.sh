@@ -75,6 +75,7 @@ xclip			# schowek w edytorze micro
 meld			# porównywarka plików
 unzip			# rozpakowywanie archiwów
 wget			# download from www in terminal
+pragha			# odtwarzacz muzyki
 )
 
 list_paru=(

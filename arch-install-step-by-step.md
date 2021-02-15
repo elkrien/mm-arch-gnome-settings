@@ -104,7 +104,7 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
     shutdown now
     ```
 
-13. Po restarcie i zalogowniu się podłączenie się do sieci:
+13. Po restarcie i zalogowaniu się podłączenie się do sieci:
 
     ```sh
     nmtui
@@ -115,4 +115,4 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
 
 
 
- 
+
