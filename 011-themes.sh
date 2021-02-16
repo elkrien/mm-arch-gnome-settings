@@ -116,6 +116,10 @@ gsettings set org.gnome.desktop.interface font-name "Ubuntu 11"
 gsettings set org.gnome.desktop.interface monospace-font-name "Roboto Mono 11"
 gsettings set org.gnome.desktop.wm.preferences titlebar-font "Ubuntu Bold 11"
 
+# dodawanie opcji uruchamiania Kitty w Nautilus
+
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal kitty
+
 ### Powiadomienie o zakończeniu
 
 tput setaf 11;

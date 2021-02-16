@@ -91,6 +91,9 @@ nvm				# Node Version Manager
 micro-bin			# edytor w terminalu
 spotify				# serwis spotify
 typora				# edytor plików MD
+nautilus-compare		# dodawanie menu Compare do Nautilus
+nautilus-open-any-terminal	# dodawanie otwieranie w Kitty do Nautilus
+nautilus-admin-git		# dodanie Otwórz jako administrator do Nautilus
 )
 
 
