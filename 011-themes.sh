@@ -105,6 +105,16 @@ cp ./Config-files/dracula.xml ~/.local/share/gedit/styles/
 
 cp ./Config-files/dracula.soc ~/.config/libreoffice/*/user/config/
 
+# ustawianie ikon, czcionek i kolorów
+
+gsettings set org.gnome.desktop.interface gtk-theme "Ant-Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Ant-Dracula"
+gsettings set org.gnome.desktop.interface icon-theme "kora"
+gsettings set org.gnome.desktop.interface cursor-theme "Bibata-Original-Amber"
+gsettings set org.gnome.desktop.interface document-font-name "Ubuntu 11"
+gsettings set org.gnome.desktop.interface font-name "Ubuntu 11"
+gsettings set org.gnome.desktop.interface monospace-font-name "Roboto Mono 11"
+gsettings set org.gnome.desktop.wm.preferences titlebar-font "Ubuntu Bold 11"
 
 ### Powiadomienie o zakończeniu
 
