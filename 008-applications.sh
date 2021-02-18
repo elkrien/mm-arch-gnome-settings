@@ -76,6 +76,8 @@ meld			# porównywarka plików
 unzip			# rozpakowywanie archiwów
 wget			# download from www in terminal
 pragha			# odtwarzacz muzyki
+ranger			# menedżer plików w terminalu
+ncdu			# analiza wykorzystania dysku
 )
 
 list_paru=(
