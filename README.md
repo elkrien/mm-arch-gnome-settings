@@ -13,7 +13,7 @@ INSTRUKCJA INSTALACJI:
 2. Zaktualizuj system:
 
    ```sh
-   sudo update -Syu
+   sudo pacman -Syu
    ```
 
 5. Sklonuj i skonfiguruj repozytorium z skryptami konfiguracyjnymi za pomocą poleceń:
