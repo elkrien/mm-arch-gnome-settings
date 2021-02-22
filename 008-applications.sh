@@ -55,49 +55,50 @@ tput sgr0
 ### Lista pakietów do zainstalowania
 
 list=(
-calibre			# manager ebook
-gimp			# edytor grafiki
-geary			# klient poczty
-qbittorrent		# klient torrent
+calibre					# manager ebook
+gimp					# edytor grafiki
+geary					# klient poczty
+qbittorrent				# klient torrent
 simplescreenrecorder	# do robienia filmów z pulpitu
-kitty			# terminal
-htop			# monitor systemu
-neofetch		# informacje o systemie
-gparted			# zarządzanie dyskami
-grub-customizer		# customizer grub
-fish			# shell
-libreoffice-fresh	# pakiet office
+kitty					# terminal
+htop					# monitor systemu
+neofetch				# informacje o systemie
+gparted					# zarządzanie dyskami
+grub-customizer			# customizer grub
+fish					# shell
+libreoffice-fresh		# pakiet office
 libreoffice-fresh-pl	# Polski język do Libreoffice
-gufw			# konfiguracja firewall
-discord			# discord
-intel-ucode		# Microcode update dla procesorów Intel
-xclip			# schowek w edytorze micro
-meld			# porównywarka plików
-unzip			# rozpakowywanie archiwów
-wget			# download from www in terminal
-pragha			# odtwarzacz muzyki
-ranger			# menedżer plików w terminalu
-ncdu			# analiza wykorzystania dysku
-micro			# edytor tekstu w terminalu
-bat				# Cat clone with syntax highlighting and git integration
-exa				# ls replacement
+gufw					# konfiguracja firewall
+discord					# discord
+intel-ucode				# Microcode update dla procesorów Intel
+xclip					# schowek w edytorze micro
+meld					# porównywarka plików
+unzip					# rozpakowywanie archiwów
+wget					# download from www in terminal
+pragha					# odtwarzacz muzyki
+ranger					# menedżer plików w terminalu
+ncdu					# analiza wykorzystania dysku
+micro					# edytor tekstu w terminalu
+bat						# Cat clone with syntax highlighting and git integration
+exa						# ls replacement
 )
 
 list_paru=(
 bitwarden-bin			# password manager
-teams				# Microsoft Teams
-zoom				# Zoom
+teams					# Microsoft Teams
+zoom					# Zoom
 skypeforlinux-stable-bin	# Skype
 google-chrome			# przeglądarka www
 timeshift-bin			# timeshift
-etcher-bin			# flashowanie iso
-pamac-aur			# instalator pakietów
-nvm				# Node Version Manager
-spotify				# serwis spotify
-typora				# edytor plików MD
+etcher-bin				# flashowanie iso
+pamac-aur				# instalator pakietów
+nvm						# Node Version Manager
+spotify					# serwis spotify
+typora					# edytor plików MD
 nautilus-compare		# dodawanie menu Compare do Nautilus
 nautilus-open-any-terminal	# dodawanie otwieranie w Kitty do Nautilus
 nautilus-admin-git		# dodanie Otwórz jako administrator do Nautilus
+zoxide-bin				# cd replacement
 )
 
 
