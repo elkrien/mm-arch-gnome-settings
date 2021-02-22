@@ -10,3 +10,14 @@ Wersja 1.0.1 - 16/02/2021
 Wersja 1.0.2 - 18/02/2021
 
 - aktualizacja skryptu 008 - dodanie ranger i ncdu
+
+Wersja 1.0.3 - 19/02/2021
+
+- aktualizacja skryptu 008 - przesunięcie micro do pacman
+- aktualizacja instrukcji instalacji Arch - zamiana nano na micro
+- aktualizacja GNOME-themes.md - dodanie Just Perfection
+
+Wersja 1.0.4 - 22/02/2021
+
+- aktualizacja fish.config
+- aktualizacja skryptu 008 - dodanie exa i bat

@@ -20,6 +20,7 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
    - User Themes
    - Dash to Dock
    - Tray Icons
+   - Just Perfection
 
 ##### MOTYW, IKONY i KURSORY
 
@@ -80,11 +81,16 @@ A następnie dla poszczególnych aplikacji wykonaj poniższe działania.
 6. Kliknij *Dodaj obraz* i wybierz tapety z `~/Obrazy`
 7. Ustaw swoją wybraną tapetę
 
+##### JUST PERFECTION
+
+1. Uruchom *Dostrajanie* i wybierz *Rozszerzenia*
+2. W opcjach *Just Perfection* wyłącz *Search*
+
 ##### SKRÓTY KLAWISZOWE
 
-1. Urucho *Ustawienia* i wybierz *Skróty klawiszowe*
+1. Uruchom *Ustawienia* i wybierz *Skróty klawiszowe*
 2. Dodaj:
-   - CTRL+ALT+T - polecenie `kitty`
+   - SUPER + ENTER - polecenie `kitty`
 
 
 

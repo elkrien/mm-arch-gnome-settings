@@ -78,6 +78,9 @@ wget			# download from www in terminal
 pragha			# odtwarzacz muzyki
 ranger			# menedżer plików w terminalu
 ncdu			# analiza wykorzystania dysku
+micro			# edytor tekstu w terminalu
+bat				# Cat clone with syntax highlighting and git integration
+exa				# ls replacement
 )
 
 list_paru=(
@@ -90,7 +93,6 @@ timeshift-bin			# timeshift
 etcher-bin			# flashowanie iso
 pamac-aur			# instalator pakietów
 nvm				# Node Version Manager
-micro-bin			# edytor w terminalu
 spotify				# serwis spotify
 typora				# edytor plików MD
 nautilus-compare		# dodawanie menu Compare do Nautilus

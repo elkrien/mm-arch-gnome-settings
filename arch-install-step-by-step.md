@@ -56,18 +56,18 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
    ```sh
    ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
    hwclock --systohc
-   pacman -S nano
-   nano /etc/locale.gen - usuń znak # w linijkach en_US.UTF-8 UTF-8 i pl_PL.UTF-8 UTF-8
+   pacman -S micro
+   micro /etc/locale.gen - usuń znak # w linijkach en_US.UTF-8 UTF-8 i pl_PL.UTF-8 UTF-8
    locale-gen
-   nano /etc/locale.conf  - dodaj: LANG=pl_PL.UTF-8
-   nano /etc/vconsole.conf - dodaj: KEYMAP=pl
+   micro /etc/locale.conf  - dodaj: LANG=pl_PL.UTF-8
+   micro /etc/vconsole.conf - dodaj: KEYMAP=pl
    ```
 
 9. Ustawianie nazwy hosta i tworzenie użytkownika:
 
    ```sh
-   nano /etc/hostname - dodaj archLenovo
-   nano /etc/hosts - dodaj:
+   micro /etc/hostname - dodaj archLenovo
+   micro /etc/hosts - dodaj:
    	127.0.0.1		localhost
    	::1				localhost
    	127.0.1.1		archLenovo.localdomain	archLenovo
@@ -76,7 +76,7 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
    passwd mm - ustaw hasło dla mm
    usermod -aG wheel,audio,video,optical,storage mm
    pacman -S sudo
-   EDITOR=nano visudo - usuń # przy linijce %wheel ALL=(ALL) ALL
+   EDITOR=micro visudo - usuń # przy linijce %wheel ALL=(ALL) ALL
    ```
 
 10. Instalacja i ustawienie grub:
