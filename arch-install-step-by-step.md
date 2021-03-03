@@ -1,6 +1,5 @@
 # INSTALACJA ARCH na IDEAPAD 100S-14IBR
 
-------
 
 Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze Lenovo Ideapad 100S-14IBR. Wykonuj komendy po kolei zgodne z poniższymi wskazówkami oraz opisem.
 
