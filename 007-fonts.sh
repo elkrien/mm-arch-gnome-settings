@@ -52,6 +52,7 @@ noto-fonts
 ttf-fira-code
 ttf-jetbrains-mono
 ttf-ubuntu-font-family
+awesome-terminal-fonts
 )
 
 list_paru=(
