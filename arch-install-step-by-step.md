@@ -37,20 +37,26 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
    mount /dev/mmcblk1p2 /mnt
    ```
 
-6. Instalacja sterowników i pluginów do obsługi dźwięku:
+6. Aktualizacja mirrorów (do szybszej instalacji):
+
+   ```sh
+   reflector -c Poland -a 12 --sort rate --save /etc/pacman.d/mirrorlist
+   ```
+
+7. Instalacja systemu Arch - kernel i podstawowy system:
 
    ```sh
    pacstrap /mnt base linux linux-firmware
    ```
 
-7. Generowanie fstab i wejście do chroot:
+8. Generowanie fstab i wejście do chroot:
 
    ```sh
    genfstab -U /mnt >> /mnt/etc/fstab
    arch-chroot /mnt
    ```
 
-8. Ustawianie strefy czasowej i języka:
+9. Ustawianie strefy czasowej i języka:
 
    ```sh
    ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
@@ -62,7 +68,7 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
    micro /etc/vconsole.conf - dodaj: KEYMAP=pl
    ```
 
-9. Ustawianie nazwy hosta i tworzenie użytkownika:
+10. Ustawianie nazwy hosta i tworzenie użytkownika:
 
    ```sh
    micro /etc/hostname - dodaj archLenovo
@@ -78,7 +84,7 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
    EDITOR=micro visudo - usuń # przy linijce %wheel ALL=(ALL) ALL
    ```
 
-10. Instalacja i ustawienie grub:
+11. Instalacja i ustawienie grub:
 
     ```sh
     pacman -S grub efibootmgr dosfstools os-prober mtools
@@ -88,14 +94,14 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
     grub-mkconfig -o /boot/grub/grub.cfg
     ```
 
-11. Instalacja i uruchomienie Network Manager'a:
+12. Instalacja i uruchomienie Network Manager'a:
 
     ```sh
     pacman -S networkmanager
     systemctl enable NetworkManager
     ```
 
-12. Wyjście i restart komputera:
+13. Wyjście i restart komputera:
 
     ```sh
     exit
@@ -103,15 +109,10 @@ Poniżej znajduje się instrukcja instalacji czystego Linux Arch na komputerze L
     shutdown now
     ```
 
-13. Po restarcie i zalogowaniu się podłączenie się do sieci:
+14. Po restarcie i zalogowaniu się podłączenie się do sieci:
 
     ```sh
     nmtui
     ```
 
-14. System zainstalowany i podłączony do Internetu - zainstaluj odpowiednie środowisko graficzne.
-
-
-
-
-
+15. System zainstalowany i podłączony do Internetu - zainstaluj odpowiednie środowisko graficzne.
