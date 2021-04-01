@@ -61,10 +61,10 @@ tput sgr0
 list=(
 kitty			# terminal
 fish			# shell
+starship		# prompt
 )
 
 list_paru=(
-starship-bin
 )
 
 
